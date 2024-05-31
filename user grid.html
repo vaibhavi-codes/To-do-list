@@ -1,0 +1,88 @@
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.user-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.now-bar {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.now-bar span {
+  margin-left: 10px;
+}
+
+.user-info {
+  padding: 20px;
+}
+
+.user-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.user-info h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.user-info p {
+  font-size: 14px;
+  color: #666;
+}
+</style>
+</head>
+<body>
+<div class="grid-container">
+  <div class="user-card">
+    <div class="now-bar">
+      <span>Apple</span>
+    </div>
+    <div class="user-info">
+      <img src="https://via.placeholder.com/50" alt="User">
+      <h2>aman</h2>
+      <p>Software Engineer</p>
+    </div>
+  </div>
+  <div class="user-card">
+    <div class="now-bar">
+      <span>Google</span>
+    </div>
+    <div class="user-info">
+      <img src="https://via.placeholder.com/50" alt="User">
+      <h2>Jack</h2>
+      <p>Product Manager</p>
+    </div>
+  </div>
+  <div class="user-card">
+    <div class="now-bar">
+      <span>Microsoft</span>
+    </div>
+    <div class="user-info">
+      <img src="https://via.placeholder.com/50" alt="User">
+      <h2>loyston</h2>
+      <p>Data Scientist</p>
+    </div>
+  </div>
+  <!-- Add more user cards here -->
+</div>
+</body>
+</html>
